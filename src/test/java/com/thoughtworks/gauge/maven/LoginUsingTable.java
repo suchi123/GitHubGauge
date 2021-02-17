@@ -19,6 +19,7 @@ public class LoginUsingTable {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
+        driver.manage().window().maximize();
         Thread.sleep(2000);
     }
 
