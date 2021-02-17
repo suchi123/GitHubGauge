@@ -42,6 +42,7 @@ public class LoginUsingTable {
             WebElement logout=driver.findElement(By.xpath("//a[text()='Logout']"));
             logout.click();
             Thread.sleep(1500);
+            driver.close();
 
 
         }
